@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx 
   rules:
-    - host: 'www.jefmer.com'
+    - host: www.jefmer.com
       http:
         paths:
           - path: /api/payments/?(.*)
